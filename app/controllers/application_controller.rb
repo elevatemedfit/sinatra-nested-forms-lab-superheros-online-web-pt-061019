@@ -7,7 +7,8 @@ class App < Sinatra::Base
     # module FormsLab
   class App < Sinatra::Base
 
-    get '/' do
+  get '/' do
+    @team = Team.new(nil)
     erb :super_hero
   end
 
