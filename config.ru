@@ -1,3 +1,3 @@
 require './config/environment'
 
-run Superhero::App
+run App
