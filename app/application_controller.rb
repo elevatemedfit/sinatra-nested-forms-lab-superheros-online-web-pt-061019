@@ -4,7 +4,7 @@ module Superhero
   class App < Sinatra::Base
 
   get '/' do
-    @team = Team.new(nil)
+
     erb :super_hero
   end
 
