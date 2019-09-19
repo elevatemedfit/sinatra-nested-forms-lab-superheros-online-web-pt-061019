@@ -18,4 +18,3 @@ require 'sinatra/base'
     erb :team
     end
   end
-
