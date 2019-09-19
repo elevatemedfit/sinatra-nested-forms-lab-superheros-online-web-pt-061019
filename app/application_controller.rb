@@ -1,10 +1,6 @@
 require 'sinatra/base'
 
-class App < Sinatra::Base
-
-    set :views, Proc.new { File.join(root, "../views/") }
-
-    # module FormsLab
+module Superhero
   class App < Sinatra::Base
 
   get '/' do
