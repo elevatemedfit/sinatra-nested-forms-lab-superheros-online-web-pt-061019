@@ -1,7 +1,6 @@
 require 'sinatra/base'
 
-module Superhero
-  class App < Sinatra::Base
+class App < Sinatra::Base
 
   get '/' do
     erb :super_hero
@@ -14,6 +13,5 @@ module Superhero
     end
     @heroes = Hero.all
     erb :team
-    end
   end
 end
