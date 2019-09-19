@@ -7,7 +7,6 @@ module Superhero
     erb :super_hero
   end
 
-
   post '/teams' do
     @team = Team.new(params[:team])
     params[:team][:members].each do |hero|
