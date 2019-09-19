@@ -1,6 +1,6 @@
 require 'sinatra/base'
 
-module Superhero
+
   class App < Sinatra::Base
 
   get '/' do
@@ -18,4 +18,4 @@ module Superhero
     erb :team
     end
   end
-end
+
