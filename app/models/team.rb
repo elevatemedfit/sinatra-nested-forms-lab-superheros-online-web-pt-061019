@@ -4,14 +4,9 @@ class Team
   @@all = []
 
   def initialize(params)
-    if params.nil?
-      @name = ''
-      @motto = ''
-    else
-      @name = params[:name]
-      @motto = params[:motto]
-      @@all << self
-    end
+    @name = params[:name]
+    @motto = params[:motto]
+    @@all << self
   end
 
   def self.all
