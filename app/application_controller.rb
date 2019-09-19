@@ -16,6 +16,6 @@ module Superhero
     end
     @heroes = Hero.all
     erb :team
-      end
     end
+  end
 end
